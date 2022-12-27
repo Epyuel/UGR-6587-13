@@ -9,7 +9,7 @@
     <body>
         <header>
             <div>
-                <img src="src_pictures/logo.png" alt="logo" width="50px" height="50px">
+                <img src="src_pictures/logo.png" alt="company logo" width="50px" height="50px">
                 <a href="1Home.html">Home</a>
                 <a href="4About_us.html">About us</a>
                 <a href="2Destinations.html">Destinations</a>
@@ -22,8 +22,10 @@
             <p>Your safety our responsability</p>
         </div>
         <form>
-            <input type="text" placeholder="Destination.." name="Search" />
-            <input type="text" placeholder="Departure date.." name="Search" />
+            <input id="destination" type="text" placeholder="Destination.." name="Search" />
+            <label for="destination">Destination</label>
+            <input id="departure" type="text" placeholder="Departure date.." name="Search" />
+            <label for="departure">Departure Date</label>
             <button type="submit">Search</button>
         </form>
         <div>
@@ -74,7 +76,7 @@
                 </span>
             </div>
             <div class="pads">
-                <img src="src_pictures/gondar.png" width="200px" height="200px" alt="">
+                <img src="src_pictures/gondar.png" width="200px" height="200px" alt="gondar castel">
                 <div class="save">
                     <form><button title="Save for later" type="submit"><img src="src_pictures/plus-solid.svg" alt="Plus icon" width="20px" height="20px"></button></form>
                 </div>
